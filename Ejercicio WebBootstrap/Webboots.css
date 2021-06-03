@@ -1,0 +1,201 @@
+.logolaberints{
+    width: 50px;
+    margin: 7px 10px; 
+}
+.laberints{
+    color: #0dad68;
+    font-family: open sans, sans-serif;
+    margin-left: 5px;
+    font-size: 29px;
+}
+.navbar-nav{
+    font-family: open sans, sans-serif;
+    margin-left: 1000px;
+   
+}
+.hero{
+    background-image: url(https://laberints.com/_next/static/media/img-hero.264b62b57e29bd67084f89eec614cb1f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 725px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.col{
+    font-family: rubik, sans-serif;
+    margin: 110px 0px 110px 0px; 
+}
+.columna1{
+    height: 280px;
+    width: 500px;
+    margin: 120px 150px 150px 120px;
+    color: white;
+}
+h2{
+    font-size: 35px;
+}
+p{
+    font-size: 15px;
+}
+.columna2{
+    display: flex;
+    justify-content: center;
+}
+.apple{
+    margin: 80px 0px 80px 0px;
+    width: 130px;
+}
+.celu{
+    width: 250px;
+}
+.enviomapa{
+    font-family: rubik, sans-serif;
+    
+    padding: 38px;
+    max-width: 500px;
+}
+.columna3{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    max-width: 500px; 
+}
+.Enviar{
+    text-decoration: none;
+    color: #0dad68;
+    border: solid #0dad68;
+    border-radius: 10px;
+    padding: 12px 25px;
+}
+.container3 {
+    padding-bottom: 30px;
+}
+.tituloytexto{
+    max-width: 1300px;
+}
+.titulo{
+    margin: 0 auto;
+    max-width: 600px;
+}
+.comparaciones{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.comparacion1{
+    padding: 30px 30px;
+    border-radius: 8px;
+    box-shadow: -1px 3px 10px -1px rgb(0 0 0 / 75%);
+    margin-right: 25px;
+}
+.comparacion2{
+    padding: 30px 30px;
+    border-radius: 8px;
+    box-shadow: -1px 3px 10px -1px rgb(0 0 0 / 75%);
+    margin-left: 25px;
+    justify-content: center;
+}
+.free{
+    list-style: none;
+}
+.pago{
+    list-style: none;
+}
+.registrarme {
+    text-decoration: none;
+    color: #0dad68;
+    border: solid #0dad68;
+    border-radius: 10px;
+    padding: 12px 100px;
+    margin: 0 auto;
+}
+.registrarme1{
+    margin-top: 30px;
+}
+.descargar{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(54, 49, 49);
+    border: solid black;
+    border-radius: 10px;
+    padding: 12px 100px;
+    margin: 0 auto;
+}
+.descargar1{
+    margin-top: 30px;
+}
+.pie{
+    background-color: #0dad68;
+}
+.container4{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+.logofinal{
+    width: 50px;
+    margin: 7px 10px;
+}
+.laberintsb{
+    color: white;
+}
+.politicas{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: Rubik, sans-serif;
+}
+.debajoprimer1{
+    color: white;
+    text-decoration: none;
+    font-family: rubik, sans-serif;
+    font-size: 14px;
+}
+.foot{
+    display: flex;  
+    justify-content: center; 
+}
+.subitumapa{
+    padding-top: 40px;
+    padding-right: 20px;
+    list-style: none;
+}
+.subitumap{
+    color: white;
+    font-family: rubik, sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+}
+.sepremium{
+    padding-top: 40px;
+    padding-left: 20px;
+    list-style: none;
+}
+.sepremiu{
+    color: white;
+    font-family: rubik, sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+}
+.tercer{
+    padding-top: 40px;
+}
+.Face{
+    padding-right: 15px;
+}
+.Twi{
+    padding-right: 15px;
+}
+.You{
+    padding-top: 40px;
+    padding-right: 15px;
+}
+.Ins{
+    padding-top: 40px;
+    padding-right: 15px;
+}
