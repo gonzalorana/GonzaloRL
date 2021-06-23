@@ -1,0 +1,655 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.Navbar{
+    border-style: ridge; 
+}
+.ContainerNav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.LogoyNombre{
+    display: flex;
+    align-items: center;
+}
+.Logo{
+    width: 60px;
+    margin: 0px 15px;
+}
+.Name{
+    text-decoration: none;
+    color: rgb(65, 60, 60);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin: 0px 15px;
+}
+.MenuNav{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(65, 60, 60);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.MenuItem0, .MenuItem1, .MenuItem2 {
+    display: flex;
+    margin: 0px 15px 0px 15px;
+}
+.Cursos, .Profesores, .Más{
+    text-decoration: none;
+    color: rgb(65, 60, 60);
+}
+.Registro{
+    display: flex;
+    align-items: center;
+}
+.Login, .Signup{
+    background-color: white;
+    border: solid;
+    border-color: red;
+    border-radius: 3px;
+    font-size: 18px;
+    color: rgb(65, 60, 60);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    margin: 0px 15px;
+    padding: 5px 10px;
+}
+.container-header{
+    background-image: url(https://images.pexels.com/photos/132088/pexels-photo-132088.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 640px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagen-header{
+    height: 200px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    font-style: oblique;
+    color: white;
+}
+.intro-header{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-style: italic;
+}
+.boton-header{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: rgb(48, 44, 44);
+    background-color: white;
+    border: solid;
+    display: inline-block;
+    border-color: red;
+    border-radius: 8px 16px;
+    padding: 12px 24px;
+    margin: 45px 250px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: rgb(48, 44, 44);
+    padding: 50px 0px;
+}
+.ventajas{
+    display: flex;
+    justify-content: space-around;
+}
+.ventaja3, .ventaja2, .ventaja1, .ventaja4{
+    text-align: center; 
+    width: 300px;
+}
+.ImagenVentaja{
+    display: flex;
+    justify-content: center;
+}
+.ventaja-casa, .ventaja-calendario, .ventaja-profesor, .ventaja-ahorro{
+    height: 130px;
+}
+.TituloVentaja{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: rgb(48, 44, 44);
+}
+.DescripcionVentaja{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: rgb(48, 44, 44);
+}
+.profesores{
+    border-style: groove;
+    background-color: rgb(228, 134, 124);  
+}
+.titulo-prof{
+    padding-top: 50px;
+}
+.fotos-descripcion{
+    display: flex;
+    justify-content: space-around;
+}
+.Julietaimg, .Carlyimg, .Martinimg, .Soniaimg{
+    height: 120px;
+    border-radius: 9999px;
+}
+.Julieta1, .Martín1, .Carly1, .Sonia1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: rgb(48, 44, 44);
+}
+.Julieta2, .Carly2, .Martín2, .Sonia2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: rgb(48, 44, 44);
+}
+.boton-elegir-profesor{
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
+.elegir-profesor{
+    background-color: white;
+    border: solid;
+    border-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: rgb(48, 44, 44);
+    border-radius: 8px 16px;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+.h3{
+    font-size: large;
+}
+.metodologia1, .metodologia3{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10px;
+}
+.imagen-metodo, .imagen-metodo1, .imagen-metodo2{
+    max-width: 50%;
+    box-shadow: rgb(65, 60, 60);
+}
+.metodoimg, .metodoimg1, .metodoimg2{
+    max-height: 100%;
+    max-width: 100%;
+}
+.descripcion-metodo, .descripcion-metodo1, .descripcion-metodo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(48, 44, 44);
+    max-width: 40%;
+}
+.p-metodo, .p-metodo1, .p-metodo2{
+    font-size: small;
+}
+.Reserva, .Buscar, .Buscar1{
+    background-color: white;
+    border: solid;
+    border-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: rgb(48, 44, 44);
+    border-radius: 8px 16px;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+.metodologia2{
+    border-style: groove;
+    background-color: rgb(228, 134, 124); 
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10px;
+}
+.pie{
+    border-style: groove;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(228, 134, 124); ;
+}
+.pie-curso0, .pie-curso1, .pie-curso2, .pie-curso3, .pie-soporte0, .pie-soporte1, .pie-soporte2, .pie-li0, .pie-li1, .pie-li2, .pie-li3{
+    text-decoration: none;
+    color: rgb(61, 58, 58);
+    font-size: small;
+}
+.pie-empresa, .pie-soporte, .pie-cursos{
+    color: rgb(48, 44, 44);
+    font-size: large;
+}
+.lista-cursos, .lista-soporte, .lista-compañia{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    padding-left: 0;
+}
+.pie-suscribete{
+    color: rgb(48, 44, 44);
+    font-size: large;
+}
+.parr-suscribete{
+    color: rgb(61, 58, 58);
+    font-size: small;
+}
+.suscribirse{
+    color: rgb(61, 58, 58);
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+}
+.email{
+    width: 100%;
+}
+.enviar{
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: red;
+    border-radius: 8px 16px;
+    background-color: white;
+    font-size: small;
+}
+
+@media (max-width: 992px) {
+    
+    .container-header{
+        height: calc(640px- 23%);
+    }
+    .imagen-header{
+        height: calc(200px- 23%);
+    }
+    h1{
+        font-size: xx-large;
+    }
+    .intro-header{
+        font-size: large;
+    }
+    .boton-header{
+        font-size: small;
+        padding: calc(12px- 23%) calc(24px- 23%);
+        margin: calc(45px- 23%) calc(250px- 23%);
+    }
+    h2{
+        font-size: xx-large;
+        padding: calc(50px- 23%) 0px;
+    }
+    .ventaja3, .ventaja2, .ventaja1, .ventaja4{
+        width: calc(300px- 23%);
+    }
+    .ventaja-casa, .ventaja-calendario, .ventaja-profesor, .ventaja-ahorro{
+        height: calc(130px- 23%);
+    }
+    .TituloVentaja{
+        font-size: large;
+    }
+    .DescripcionVentaja{
+        font-size: medium;
+    }
+    .titulo-prof{
+        padding-top: calc(50px- 23%);
+    }
+    .Julietaimg, .Carlyimg, .Martinimg, .Soniaimg{
+        height: calc(120px- 23%);
+    }
+    .Julieta1, .Martín1, .Carly1, .Sonia1{
+        font-size: large;
+    }
+    .Julieta2, .Carly2, .Martín2, .Sonia2{
+        font-size: medium;
+    }
+    .boton-elegir-profesor{
+        padding: calc(40px- 23%) 0px calc(40px- 23%) 0px;
+    }
+    .elegir-profesor{
+        font-size: small;
+        padding: calc(12px- 23%) calc(24px- 23%);
+    }
+    .h3{
+        font-size: medium;
+    }
+    .metodologia1, .metodologia3{
+        padding: calc(50px- 23%) 0px;
+    }
+    .metodoimg, .metodoimg1, .metodoimg2{
+        height: auto;
+        width: auto;
+    }
+    .descripcion-metodo, .descripcion-metodo1, .descripcion-metodo2{
+        max-width: 40%;
+    }
+    .p-metodo, .p-metodo1, .p-metodo2{
+        font-size: small;
+    }
+    .metodologia2{
+        padding: calc(50px- 23%) 0px;
+    }
+    .Buscar{
+        padding: calc(12px- 23%) calc(24px- 23%);
+        font-size: small;
+    }
+    .boton-buscar-cursos, .Buscar1, .boton-buscar-cursos2, .Reserva, .boton-reserva{
+        font-size: small;
+        padding: calc(12px- 23%) calc(24px- 23%);
+    }
+    .pie-curso0, .pie-curso1, .pie-curso2, .pie-curso3, .pie-soporte0, .pie-soporte1, .pie-soporte2, .pie-li0, .pie-li1, .pie-li2, .pie-li3{
+        font-size: small;
+    }
+    .pie-empresa, .pie-soporte, .pie-cursos{
+        font-size: large;
+    }
+    .pie-suscribete{
+        font-size: large;
+    }
+    .parr-suscribete, .suscribirse{
+        font-size: small;
+    }
+    .email{
+        width: 77%
+    }
+    .enviar{
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 768px){
+    .Logo{
+        width: calc(60px- 40%);
+        margin: 0px calc(15px- 40%);
+    }
+    .Name{
+        font-size: calc(25px- 40%);
+        margin: 0px calc(15px- 40%);
+    }
+    .MenuNav{
+        font-size: calc(20px- 40%);
+    }
+    .MenuItem0, .MenuItem1, .MenuItem2 {
+        margin: 0px calc(15px- 40.6%) 0px calc(15px- 40%);
+    }
+    .Registro{
+        display: flex;
+        align-items: center;
+    }
+    .Login, .Signup{
+        font-size: calc(18px- 40%);
+        margin: 0px calc(15px- 40%);
+        padding: calc(5px- 40%) calc(10px- 40%);
+    }
+    .container-header{
+        height: calc(640px- 40%);
+    }
+    .imagen-header{
+        height: calc(200px- 40%);
+    }
+    h1{
+        font-size: x-large;
+    }
+    .intro-header{
+        font-size: medium;
+    }
+    .boton-header{
+        font-size: x-small;
+        padding: calc(12px- 40%) calc(24px- 40%);
+        margin: calc(45px- 40%) calc(150px- 40%);
+    }
+    h2{
+        font-size: x-large;
+        padding: calc(50px- 40%) 0px;
+    }
+    .ventaja3, .ventaja2, .ventaja1, .ventaja4{
+        width: calc(300px- 40%);
+    }
+    .ventaja-casa, .ventaja-calendario, .ventaja-profesor, .ventaja-ahorro{
+        height: calc(130px- 40%);
+    }
+    .TituloVentaja{
+        font-size: medium;
+    }
+    .DescripcionVentaja{
+        font-size: small;
+    }
+    .titulo-prof{
+        padding-top: calc(50px- 40%);
+    }
+    .Julietaimg, .Carlyimg, .Martinimg, .Soniaimg{
+        height: calc(120px- 40%);
+    }
+    .Julieta1, .Martín1, .Carly1, .Sonia1{
+        font-size: medium;
+    }
+    .Julieta2, .Carly2, .Martín2, .Sonia2{
+        font-size: small;
+    }
+    .boton-elegir-profesor{
+        padding: calc(40px- 40%) 0px calc(40px- 40%) 0px;
+    }
+    .h3{
+        font-size: small;
+    }
+    .metodologia1, .metodologia2, .metodologia3{
+        padding: calc(50px- 40%) 0px;
+    }
+    .metodoimg, .metodoimg1, .metodoimg2{
+        height: auto;
+        width: auto;
+    }
+    .imagen-metodo, .imagen-metodo1, .imagen-metodo2{
+        display: flex;
+        align-content: center;
+    }
+    .descripcion-metodo, .descripcion-metodo1, .descripcion-metodo2{
+        max-width: 40%;
+    }
+    .p-metodo, .p-metodo1, .p-metodo2{
+        font-size: x-small;
+    }
+    .Reserva, .boton-reserva, .Buscar, .Buscar1, .boton-buscar-cursos, .boton-buscar-cursos2, .Buscar1{
+        padding: calc(12px- 40%) calc(24px- 40%);
+        font-size: x-small;
+    }
+    .pie-curso0, .pie-curso1, .pie-curso2, .pie-curso3, .pie-soporte0, .pie-soporte1, .pie-soporte2, .pie-li0, .pie-li1, .pie-li2, .pie-li3{
+        font-size: x-small;
+    }
+    .pie-empresa, .pie-soporte, .pie-cursos{
+        font-size: medium;
+    }
+    .pie-suscribete{
+        font-size: medium;
+    }
+    .parr-suscribete{
+        font-size: x-small;
+    }
+    .suscribirse{
+        font-size: x-small;
+    }
+    .email{
+       width: 60%;
+    }
+    .enviar{
+        padding: 5px 10px;
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 576px){
+    .Logo{
+        max-width: 27px;
+        margin: 0px 6.75;
+    }
+    .Name{
+        font-size: 11.25px;
+        margin: 0px 6.75px;
+    }
+    .MenuNav{
+        font-size: 9px;
+    }
+    .MenuItem0, .MenuItem1, .MenuItem2 {
+        margin: 0px 6.75px 0px 6.75px;
+    }
+    .Registro{
+        display: flex;
+        align-items: center;
+    }
+    .Login, .Signup{
+        font-size: 8.1px;
+        margin: 0px 6.75px;
+        padding: 2.25px 4.50px;;
+    }
+    .container-header{
+        height: 288px;
+    }
+    .imagen-header{
+        height: 90px;
+    }
+    h1{
+        font-size: large;
+    }
+    .intro-header{
+        font-size: small;
+    }
+    .boton-header{
+        font-size: x-small;
+        padding: 5.4px 10.8px;
+        margin: 20px 144px;
+    }
+    h2{
+        font-size: small;
+        padding: 23px 0px;
+    }
+    .ventaja3, .ventaja2, .ventaja1, .ventaja4{
+        width: 135px;
+        flex-direction: column;
+    }
+    .ventaja-casa, .ventaja-calendario, .ventaja-profesor, .ventaja-ahorro{
+        height: 58px;
+        flex-direction: column;
+    }
+    .TituloVentaja{
+        font-size: x-small;
+    }
+    .DescripcionVentaja{
+        font-size: xx-small;
+    }
+    .titulo-prof{
+        padding-top: 22.50px;
+    }
+    .Julietaimg, .Carlyimg, .Martinimg, .Soniaimg{
+        height: 54px;
+    }
+    .Julieta1, .Martín1, .Carly1, .Sonia1{
+        font-size: x-small;
+    }
+    .Julieta2, .Carly2, .Martín2, .Sonia2{
+        font-size: x-small;
+    }
+    .boton-elegir-profesor{
+        padding: 18px 0px 18px 0px;
+    }
+    .elegir-profesor{
+        font-size: xx-small;
+        padding: 5.4px 10.8px;
+    }
+    .h3{
+        font-size: xx-small;
+    }
+    .metodologia1{
+        padding: 22.5px 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .metodoimg{
+        height: auto;
+        width: auto;
+    }
+    .imagen-metodo{
+        padding: 25px 10px 5px 0px;
+    }
+    .descripcion-metodo{
+        max-width: 90%;
+    }
+    .p-metodo{
+        font-size: x-small;
+    }
+    .Reserva{
+        font-size: x-small;
+        padding: 5.4px 10.8px;
+    }
+    .metodologia2{
+        padding: 10px 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .metodoimg1{
+        height: auto;
+        width: auto;
+    }
+    .imagen-metodo1{
+        padding: 5px 10px 15px 0px;
+    }
+    .descripcion-metodo1{
+        max-width: 90%;
+    }
+    .p-metodo1{
+        font-size: x-small;
+    }
+    .Buscar{
+        font-size: x-small;
+        padding: 5.4px 10.8px;
+    }
+    .metodologia3{
+        padding: 10px 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .metodoimg2{
+        height: auto;
+        width: auto;
+    }
+    .imagen-metodo2{
+        padding: 25px 10px 5px 0px;
+    }
+    .descripcion-metodo2{
+        max-width: 90%;
+    }
+    .p-metodo2{
+        font-size: x-small;
+    }
+    .Buscar1{
+        font-size: x-small;
+        padding: 5.4px 10.8px
+    }
+    .pie-curso0, .pie-curso1, .pie-curso2, .pie-curso3, .pie-soporte0, .pie-soporte1, .pie-soporte2, .pie-li0, .pie-li1, .pie-li2, .pie-li3{
+        font-size: xx-small;
+    }
+    .pie-empresa, .pie-soporte, .pie-cursos{
+        font-size: x-small;
+    }
+    .pie-suscribete{
+        font-size: x-small;
+    }
+    .parr-suscribete{
+        font-size: xx-small;
+    }
+    .suscribirse{
+        font-size: x-small;
+    }
+    .email{
+        width: 45%;
+    }
+    .enviar{
+        padding: 5px 10px;
+        font-size: xx-small;
+    }
+}   
